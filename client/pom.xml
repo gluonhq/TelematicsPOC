@@ -18,6 +18,7 @@
 
     <properties>
         <main.class>com.gluonhq.ignite.micronaut.FXApplication</main.class>
+        <runtime.jvm.options>-Dtesla.m3.vin=${vin},-Dautostart=false</runtime.jvm.options>
         <runtime.options/>
         <remote.host.name/>
         <remote.dir/>
@@ -225,9 +226,7 @@
                 <version>${javafx.plugin.version}</version>
                 <configuration>
                     <mainClass>${main.class}</mainClass>
-                    <options>
-                        <option>-Dtesla.m3.vin=${vin}</option>
-                    </options>
+                    <options>${runtime.jvm.options}</options>
                 </configuration>
             </plugin>
             <plugin>
@@ -294,9 +293,46 @@
                 <client.target>linux-aarch64</client.target>
                 <remote.host.name>pi@raspberrypi.local</remote.host.name>
                 <remote.dir>/home/pi/Downloads/telematics/</remote.dir>
-                <runtime.options>-Dmonocle.platform=EGL,-Duse.egl=true,-Dembedded=monocle,-Dglass.platform=Monocle,-Dcom.sun.javafx.isEmbedded=true,-Dmonocle.input.touchRadius=1</runtime.options>
+                <remote.sdk.path>/opt/javafx-sdk-17</remote.sdk.path>
+                <runtime.jvm.options>-Dtesla.m3.vin=${vin},-Dautostart=false,-Dmonocle.egl.lib=${remote.sdk.path}/lib/libgluon_drm.so,-Dmonocle.platform=EGL,-Duse.egl=true,-Dembedded=monocle,-Dglass.platform=Monocle,-Dcom.sun.javafx.isEmbedded=true,-Dmonocle.input.touchRadius=1</runtime.jvm.options>
+                <runtime.options>-Dtesla.m3.vin=${vin},-Dautostart=true,-Dmonocle.platform=EGL,-Duse.egl=true,-Dembedded=monocle,-Dglass.platform=Monocle,-Dcom.sun.javafx.isEmbedded=true,-Dmonocle.input.touchRadius=1</runtime.options>
             </properties>
             <dependencies>
+                <dependency>
+                    <groupId>org.openjfx</groupId>
+                    <artifactId>javafx-base</artifactId>
+                    <version>${javafx.version}</version>
+                    <scope>system</scope>
+                    <systemPath>${remote.sdk.path}/lib/javafx.base.jar</systemPath>
+                </dependency>
+                <dependency>
+                    <groupId>org.openjfx</groupId>
+                    <artifactId>javafx-graphics</artifactId>
+                    <version>${javafx.version}</version>
+                    <scope>system</scope>
+                    <systemPath>${remote.sdk.path}/lib/javafx.graphics.jar</systemPath>
+                </dependency>
+                <dependency>
+                    <groupId>org.openjfx</groupId>
+                    <artifactId>javafx-controls</artifactId>
+                    <version>${javafx.version}</version>
+                    <scope>system</scope>
+                    <systemPath>${remote.sdk.path}/lib/javafx.controls.jar</systemPath>
+                </dependency>
+                <dependency>
+                    <groupId>org.openjfx</groupId>
+                    <artifactId>javafx-fxml</artifactId>
+                    <version>${javafx.version}</version>
+                    <scope>system</scope>
+                    <systemPath>${remote.sdk.path}/lib/javafx.fxml.jar</systemPath>
+                </dependency>
+                <dependency>
+                    <groupId>org.openjfx</groupId>
+                    <artifactId>javafx-media</artifactId>
+                    <version>${javafx.version}</version>
+                    <scope>system</scope>
+                    <systemPath>${remote.sdk.path}/lib/javafx.media.jar</systemPath>
+                </dependency>
                 <dependency>
                     <groupId>com.gluonhq.attach</groupId>
                     <artifactId>display</artifactId>
