@@ -18,6 +18,9 @@
 
     <properties>
         <main.class>com.gluonhq.ignite.micronaut.FXApplication</main.class>
+        <runtime.options/>
+        <remote.host.name/>
+        <remote.dir/>
     </properties>
 
     <dependencies>
@@ -32,16 +35,6 @@
             <artifactId>micronaut-validation</artifactId>
             <scope>compile</scope>
         </dependency>
-        <!--        <dependency>-->
-        <!--            <groupId>io.micronaut</groupId>-->
-        <!--            <artifactId>micronaut-http-server-netty</artifactId>-->
-        <!--            <scope>compile</scope>-->
-        <!--        </dependency>-->
-        <!--        <dependency>-->
-        <!--            <groupId>io.micronaut</groupId>-->
-        <!--            <artifactId>micronaut-http-client</artifactId>-->
-        <!--            <scope>compile</scope>-->
-        <!--        </dependency>-->
         <dependency>
             <groupId>io.micronaut</groupId>
             <artifactId>micronaut-runtime</artifactId>
@@ -187,10 +180,6 @@
                 <configuration>
                     <source>${java.version}</source>
                     <target>${java.version}</target>
-                    <!--                    <compilerArgs>-->
-                    <!--                        <arg>${jvm.opts}</arg>-->
-                    <!--                    </compilerArgs>-->
-
                     <annotationProcessorPaths>
                         <path>
                             <groupId>io.micronaut</groupId>
@@ -238,7 +227,6 @@
                     <mainClass>${main.class}</mainClass>
                     <options>
                         <option>-Dtesla.m3.vin=${vin}</option>
-                        <!-- <option>${jvm.opts}</option> -->
                     </options>
                 </configuration>
             </plugin>
@@ -259,6 +247,9 @@
                     <nativeImageArgs>
                         <arg>--report-unsupported-elements-at-runtime</arg>
                     </nativeImageArgs>
+<!--                    <runtimeArgs>${runtime.options}</runtimeArgs>-->
+<!--                    <remoteHostName>${remote.host.name}</remoteHostName>-->
+<!--                    <remoteDir>${remote.dir}</remoteDir>-->
                 </configuration>
             </plugin>
         </plugins>
@@ -273,34 +264,37 @@
             <properties>
                 <client.target>host</client.target>
             </properties>
-<!--            <dependencies>-->
-<!--                <dependency>-->
-<!--                    <groupId>com.gluonhq.attach</groupId>-->
-<!--                    <artifactId>display</artifactId>-->
-<!--                    <version>${attach.version}</version>-->
-<!--                    <classifier>desktop</classifier>-->
-<!--                    <scope>runtime</scope>-->
-<!--                </dependency>-->
-<!--                <dependency>-->
-<!--                    <groupId>com.gluonhq.attach</groupId>-->
-<!--                    <artifactId>lifecycle</artifactId>-->
-<!--                    <version>${attach.version}</version>-->
-<!--                    <classifier>desktop</classifier>-->
-<!--                    <scope>runtime</scope>-->
-<!--                </dependency>-->
-<!--                <dependency>-->
-<!--                    <groupId>com.gluonhq.attach</groupId>-->
-<!--                    <artifactId>storage</artifactId>-->
-<!--                    <version>${attach.version}</version>-->
-<!--                    <classifier>desktop</classifier>-->
-<!--                    <scope>runtime</scope>-->
-<!--                </dependency>-->
-<!--            </dependencies>-->
+            <dependencies>
+                <dependency>
+                    <groupId>com.gluonhq.attach</groupId>
+                    <artifactId>display</artifactId>
+                    <version>${attach.version}</version>
+                    <classifier>desktop</classifier>
+                    <scope>runtime</scope>
+                </dependency>
+                <dependency>
+                    <groupId>com.gluonhq.attach</groupId>
+                    <artifactId>lifecycle</artifactId>
+                    <version>${attach.version}</version>
+                    <classifier>desktop</classifier>
+                    <scope>runtime</scope>
+                </dependency>
+                <dependency>
+                    <groupId>com.gluonhq.attach</groupId>
+                    <artifactId>storage</artifactId>
+                    <version>${attach.version}</version>
+                    <classifier>desktop</classifier>
+                    <scope>runtime</scope>
+                </dependency>
+            </dependencies>
         </profile>
         <profile>
             <id>pi</id>
             <properties>
                 <client.target>linux-aarch64</client.target>
+                <remote.host.name>pi@raspberrypi.local</remote.host.name>
+                <remote.dir>/home/pi/Downloads/telematics/</remote.dir>
+                <runtime.options>-Dmonocle.platform=EGL,-Duse.egl=true,-Dembedded=monocle,-Dglass.platform=Monocle,-Dcom.sun.javafx.isEmbedded=true,-Dmonocle.input.touchRadius=1</runtime.options>
             </properties>
             <dependencies>
                 <dependency>

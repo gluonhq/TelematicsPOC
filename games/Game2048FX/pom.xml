@@ -149,9 +149,6 @@
                 <configuration>
                     <source>${java.version}</source>
                     <target>${java.version}</target>
-                    <!--                    <compilerArgs>-->
-                    <!--                        <arg>${jvm.opts}</arg>-->
-                    <!--                    </compilerArgs>-->
                     <annotationProcessorPaths>
                         <path>
                             <groupId>io.micronaut</groupId>
@@ -172,9 +169,6 @@
                 <version>${javafx.plugin.version}</version>
                 <configuration>
                     <mainClass>${main.class}</mainClass>
-                    <!--                    <options>-->
-                    <!--                        <option>${jvm.opts}</option>-->
-                    <!--                    </options>-->
                 </configuration>
             </plugin>
             <plugin>
@@ -205,36 +199,36 @@
             <properties>
                 <client.target>host</client.target>
             </properties>
-<!--            <dependencies>-->
-<!--                <dependency>-->
-<!--                    <groupId>com.gluonhq.attach</groupId>-->
-<!--                    <artifactId>display</artifactId>-->
-<!--                    <version>${attach.version}</version>-->
-<!--                    <classifier>desktop</classifier>-->
-<!--                    <scope>runtime</scope>-->
-<!--                </dependency>-->
-<!--                <dependency>-->
-<!--                    <groupId>com.gluonhq.attach</groupId>-->
-<!--                    <artifactId>lifecycle</artifactId>-->
-<!--                    <version>${attach.version}</version>-->
-<!--                    <classifier>desktop</classifier>-->
-<!--                    <scope>runtime</scope>-->
-<!--                </dependency>-->
-<!--                <dependency>-->
-<!--                    <groupId>com.gluonhq.attach</groupId>-->
-<!--                    <artifactId>settings</artifactId>-->
-<!--                    <version>${attach.version}</version>-->
-<!--                    <classifier>desktop</classifier>-->
-<!--                    <scope>runtime</scope>-->
-<!--                </dependency>-->
-<!--                <dependency>-->
-<!--                    <groupId>com.gluonhq.attach</groupId>-->
-<!--                    <artifactId>storage</artifactId>-->
-<!--                    <version>${attach.version}</version>-->
-<!--                    <classifier>desktop</classifier>-->
-<!--                    <scope>runtime</scope>-->
-<!--                </dependency>-->
-<!--            </dependencies>-->
+            <dependencies>
+                <dependency>
+                    <groupId>com.gluonhq.attach</groupId>
+                    <artifactId>display</artifactId>
+                    <version>${attach.version}</version>
+                    <classifier>desktop</classifier>
+                    <scope>runtime</scope>
+                </dependency>
+                <dependency>
+                    <groupId>com.gluonhq.attach</groupId>
+                    <artifactId>lifecycle</artifactId>
+                    <version>${attach.version}</version>
+                    <classifier>desktop</classifier>
+                    <scope>runtime</scope>
+                </dependency>
+                <dependency>
+                    <groupId>com.gluonhq.attach</groupId>
+                    <artifactId>settings</artifactId>
+                    <version>${attach.version}</version>
+                    <classifier>desktop</classifier>
+                    <scope>runtime</scope>
+                </dependency>
+                <dependency>
+                    <groupId>com.gluonhq.attach</groupId>
+                    <artifactId>storage</artifactId>
+                    <version>${attach.version}</version>
+                    <classifier>desktop</classifier>
+                    <scope>runtime</scope>
+                </dependency>
+            </dependencies>
         </profile>
         <profile>
             <id>android</id>
