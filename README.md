@@ -48,7 +48,7 @@ On a Raspberry Pi (32/64 bits), follow the [documentation](https://docs.gluonhq.
 
 The application works on HotSpot directly from the Pi:
 
-    mvn javafx:run -f client
+    mvn -Ppi javafx:run -f client
 
 Note: configure the properties defined under the Maven Pi profile accordingly.
 
