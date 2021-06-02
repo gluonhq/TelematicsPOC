@@ -294,7 +294,7 @@
                 <remote.host.name>pi@raspberrypi.local</remote.host.name>
                 <remote.dir>/home/pi/Downloads/telematics/</remote.dir>
                 <remote.sdk.path>/opt/javafx-sdk-17</remote.sdk.path>
-                <runtime.jvm.options>-Dtesla.m3.vin=${vin},-Dautostart=false,-Dmonocle.egl.lib=${remote.sdk.path}/lib/libgluon_drm.so,-Dmonocle.platform=EGL,-Duse.egl=true,-Dembedded=monocle,-Dglass.platform=Monocle,-Dcom.sun.javafx.isEmbedded=true,-Dmonocle.input.touchRadius=1</runtime.jvm.options>
+                <runtime.jvm.options>-Dtesla.m3.vin=${vin},-Dautostart=true,-Dmonocle.egl.lib=${remote.sdk.path}/lib/libgluon_drm.so,-Dmonocle.platform=EGL,-Duse.egl=true,-Dembedded=monocle,-Dglass.platform=Monocle,-Dcom.sun.javafx.isEmbedded=true,-Dmonocle.input.touchRadius=1</runtime.jvm.options>
                 <runtime.options>-Dtesla.m3.vin=${vin},-Dautostart=true,-Dmonocle.platform=EGL,-Duse.egl=true,-Dembedded=monocle,-Dglass.platform=Monocle,-Dcom.sun.javafx.isEmbedded=true,-Dmonocle.input.touchRadius=1</runtime.options>
             </properties>
             <dependencies>

@@ -33,6 +33,7 @@ import com.gluonhq.samples.telematics.ui.control.BatteryChargeIndicator;
 import com.gluonhq.samples.telematics.ui.event.ToggleThemeEvent;
 import io.micronaut.context.annotation.Prototype;
 import io.micronaut.context.event.ApplicationEventPublisher;
+import javafx.application.Platform;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
@@ -101,7 +102,7 @@ public class CarStateController {
 	    @Override public void run() {
 	        try {
 	            Thread.sleep(5000);
-	            car.move("/track1.gpx");
+	            Platform.runLater(() -> car.move("/track1.gpx"));
 	        } catch (Exception e) {
 		    e.printStackTrace();
 	        }
