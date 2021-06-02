@@ -1,0 +1,151 @@
+@font-face {
+    font-family: Gotham-Medium;
+    src: url('GothamMedium.ttf');
+}
+
+@font-face {
+    font-family: Gotham-Book;
+    src: url('GothamBook.ttf');
+}
+
+.root {
+    -fx-font-size: .18in;
+    -fx-font-family: Gotham-Medium;
+    -ts-dropshadow: dropshadow(gaussian, rgba(0, 0, 0, 0.4), 15, 0.5, 1.0, 0.0);
+}
+
+.tool-bar {
+    -fx-background-color: transparent;
+    -fx-spacing: .5in;
+}
+
+.separator .line {
+    -fx-border-color: -fx-base;
+    -fx-opacity: 0.5;
+    -fx-border-width: 1;
+    -fx-max-height: 1;
+}
+
+.button,
+.toggle-button {
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+}
+
+.font-icon {
+    -fx-icon-color: white;
+    -fx-icon-size: .35in;
+}
+
+.main-menu {
+    -fx-pref-height: .5in;
+}
+
+.monitor {
+    -fx-background-color: black;
+}
+
+.content-view-clip {
+    -fx-arc-width: .25in;
+    -fx-arc-height: .25in;
+}
+
+/*Car state view*/
+
+.car-state-view {
+    -fx-padding: .1in;
+    -fx-pref-width: 4in;
+    -fx-spacing: 10;
+    -fx-background-color: -ts-state-background;
+    -fx-effect: -ts-dropshadow;
+    -fx-fill-width: true;
+    -fx-alignment: top-center;
+}
+
+.car-state-view .button {
+    -fx-text-fill: -ts-state-foreground;
+}
+
+.car-speed-view {
+    -fx-padding: .1in;
+    -fx-font-family: Gotham-Book;
+    -fx-font-size: 3.5em;
+    /*-fx-alignment: center;*/
+}
+
+/*.car-image-view {*/
+/*    -fx-fit-to-height: 3in;*/
+/*    -fx-alignment: center;*/
+/*}*/
+
+/* Navigation screen*/
+
+.nav-control-bar {
+    -fx-padding: 0 .25in 0 .25in;
+    -fx-background-color: -ts-h-gradient;
+    -fx-spacing: .1in;
+    -fx-pref-height: .5in;
+}
+
+.nav-control-bar .font-icon {
+    -fx-icon-size: .2in;
+    -fx-icon-color: -fx-base;
+}
+
+.nav-side-tool-bar {
+    -fx-pref-height: .5in;
+}
+
+.overlay-panel {
+    -fx-padding: .06in .03in .06in .03in;
+    -fx-background-color: -ts-overlay-background-color;
+    -fx-background-radius: .1in;
+    -fx-spacing: .2in;
+    -fx-effect: -ts-dropshadow;
+}
+
+.overlay-panel.window {
+    -fx-background-color: -fx-background;
+}
+
+
+.overlay-panel .font-icon {
+    -fx-icon-size: .17in;
+    -fx-icon-color: -fx-base;
+}
+
+/* Battery charge indicator */
+
+.battery-indicator {
+    -fx-pref-width: .5in;
+    -fx-pref-height: .16in;
+}
+
+.battery-indicator .shell {
+    -fx-background-color: -ts-state-foreground;
+    -fx-background-radius: 3;
+}
+
+.battery-indicator .charge {
+    -fx-background-color: -ts-green;
+    -fx-background-radius: 2;
+}
+
+.grid {
+    -fx-hgap: 10;
+    -fx-vgap: 10;
+    -fx-padding: 30;
+}
+
+.grid-game {
+    -fx-background-color: -ts-state-foreground;
+    -fx-background-radius: 5;
+    -fx-alignment: center;
+    -fx-padding: 20;
+    -fx-effect: -ts-dropshadow;
+}
+
+.grid-game .font-icon {
+    -fx-icon-size: .5in;
+    -fx-icon-color: derive(-ts-green, -50%);
+}

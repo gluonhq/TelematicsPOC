@@ -1,0 +1,31 @@
+@import "game.css";
+
+.root{
+    -fx-font-size: 10pt;
+}
+.tool-bar {
+    -fx-background-color: transparent;
+    -fx-spacing: .15in;
+}
+
+.separator .line {
+    -fx-border-color: -fx-base;
+    -fx-opacity: 0.5;
+    -fx-border-width: 1;
+    -fx-max-height: 1;
+}
+
+.tool-bar .button,
+.tool-bar .toggle-button {
+    -fx-background-color: transparent;
+    -fx-text-fill: black;
+}
+
+.font-icon {
+    -fx-icon-color: black;
+    -fx-icon-size: .25in;
+}
+
+.main-menu {
+    -fx-pref-height: .5in;
+}

@@ -1,0 +1,31 @@
+{
+  "resources":{
+  "includes":[
+    {"pattern":"\\QMETA-INF/resources/fontawesome5/5.13.0/fonts/fa-brands-400.ttf\\E"}, 
+    {"pattern":"\\QMETA-INF/resources/fontawesome5/5.13.0/fonts/fa-regular-400.ttf\\E"}, 
+    {"pattern":"\\QMETA-INF/resources/fontawesome5/5.13.0/fonts/fa-solid-900.ttf\\E"}, 
+    {"pattern":"\\QMETA-INF/resources/ikonli/0.0.0/fonts/ikonli.ttf\\E"}, 
+    {"pattern":"\\QMETA-INF/services/io.micronaut.context.env.PropertySourceLoader\\E"}, 
+    {"pattern":"\\QMETA-INF/services/io.micronaut.core.beans.BeanIntrospectionReference\\E"}, 
+    {"pattern":"\\QMETA-INF/services/io.micronaut.inject.BeanConfiguration\\E"}, 
+    {"pattern":"\\QMETA-INF/services/io.micronaut.inject.BeanDefinitionReference\\E"}, 
+    {"pattern":"\\QMETA-INF/services/org.kordamp.ikonli.IkonHandler\\E"}, 
+    {"pattern":"\\Qcom/gluonhq/samples/telematics/ui/view/CarStateView.fxml\\E"}, 
+    {"pattern":"\\Qdark.css\\E"}, 
+    {"pattern":"\\Qlight.css\\E"}, 
+    {"pattern":"\\Qlogback.xml\\E"}, 
+    {"pattern":"\\Qorg/jpereda/game2048/2048fx.png\\E"}, 
+    {"pattern":"\\Qorg/jpereda/game2048/Icon-60.png\\E"}, 
+    {"pattern":"\\Qorg/jpereda/game2048/phone.css\\E"}, 
+    {"pattern":"\\Qorg/jpereda/game2048/views/GameView.fxml\\E"}, 
+    {"pattern":"\\Qorg/slf4j/impl/StaticLoggerBinder.class\\E"}, 
+    {"pattern":"\\QteslaM3-top.png\\E"}, 
+    {"pattern":"\\Qtrack1.gpx\\E"}, 
+    {"pattern":"\\Qtrack2.gpx\\E"}, 
+    {"pattern":"\\Qtrack3.gpx\\E"}
+  ]},
+  "bundles":[
+    {"name":"com.sun.javafx.tk.quantum.QuantumMessagesBundle"}, 
+    {"name":"com/sun/javafx/scene/control/skin/resources/controls"}
+  ]
+}

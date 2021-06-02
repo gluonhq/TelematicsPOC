@@ -1,0 +1,15 @@
+@import "styles.css";
+
+.root {
+    -fx-base: black;
+    -fx-background: white;
+
+    -ts-state-foreground: #868a85;
+    -ts-state-background: -fx-background;
+    /*-ts-h-gradient: linear-gradient(to bottom, rgba(255, 255, 255, 0.9), rgba(0, 0, 0, 0));*/
+    -ts-h-gradient: transparent;
+    -ts-overlay-background-color: rgba(255, 255, 255, 0.85);
+    -ts-green: #00d550;
+}
+
+

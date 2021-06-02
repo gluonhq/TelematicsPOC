@@ -1,0 +1,1095 @@
+[
+{
+  "name":"com.gluonhq.ignite.micronaut.$$FXMLRootProviderDefinition$InterceptedDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.gluonhq.ignite.micronaut.$FXMLLoaderFactory$GetLoader0DefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.gluonhq.ignite.micronaut.$FXMLLoaderFactoryDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.gluonhq.ignite.micronaut.$FXMLRootProviderDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.gluonhq.ignite.micronaut.$OnFXThreadInterceptorDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.gluonhq.ignite.micronaut.FXApplication",
+  "methods":[
+    {"name":"<init>","parameterTypes":[] }, 
+    {"name":"main","parameterTypes":["java.lang.String[]"] }
+  ]
+},
+{
+  "name":"com.gluonhq.ignite.micronaut.FXMLLoaderFactory",
+  "fields":[{"name":"ctx"}]
+},
+{
+  "name":"com.gluonhq.ignite.micronaut.FXMLRootProvider",
+  "fields":[{"name":"ctx"}]
+},
+{
+  "name":"com.gluonhq.ignite.micronaut.view.$FXMLViewDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.gluonhq.ignite.micronaut.view.FXMLView",
+  "allDeclaredMethods":true,
+  "fields":[{"name":"rootProvider"}]
+},
+{
+  "name":"com.gluonhq.samples.telematics.$TelematicsClient$ApplicationEventListener$onAppStart1$InterceptedDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.gluonhq.samples.telematics.$TelematicsClientDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.gluonhq.samples.telematics.TelematicsClient",
+  "fields":[{"name":"monitor"}]
+},
+{
+  "name":"com.gluonhq.samples.telematics.cloudlink.$$CloudLinkClientDefinition$InterceptedDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.gluonhq.samples.telematics.cloudlink.$CloudLinkClient$ApplicationEventListener$onVinDetected1$InterceptedDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.gluonhq.samples.telematics.cloudlink.$CloudLinkClientDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.gluonhq.samples.telematics.cloudlink.CloudLinkClient",
+  "allDeclaredMethods":true,
+  "fields":[{"name":"car"}]
+},
+{
+  "name":"com.gluonhq.samples.telematics.cloudlink.Vehicle",
+  "allDeclaredFields":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.gluonhq.samples.telematics.games.$Game2048FXDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.gluonhq.samples.telematics.games.Game2048FX",
+  "fields":[{"name":"game"}]
+},
+{
+  "name":"com.gluonhq.samples.telematics.model.$Car$ApplicationEventListener$onAppStart1$InterceptedDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.gluonhq.samples.telematics.model.$CarConfigDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.gluonhq.samples.telematics.model.$CarDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.gluonhq.samples.telematics.model.Car",
+  "fields":[
+    {"name":"config"}, 
+    {"name":"eventPublisher"}
+  ]
+},
+{
+  "name":"com.gluonhq.samples.telematics.ui.control.$OverlayWindowDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.gluonhq.samples.telematics.ui.view.$$NavigationOverlayDefinition$InterceptedDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.gluonhq.samples.telematics.ui.view.$CarStateControllerDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.gluonhq.samples.telematics.ui.view.$CarStateViewDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.gluonhq.samples.telematics.ui.view.$ContentViewDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.gluonhq.samples.telematics.ui.view.$GamesViewDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.gluonhq.samples.telematics.ui.view.$MainScreen$ApplicationEventListener$onToggleTheme1$InterceptedDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.gluonhq.samples.telematics.ui.view.$MainScreenDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.gluonhq.samples.telematics.ui.view.$MonitorDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.gluonhq.samples.telematics.ui.view.$NavigationMapViewDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.gluonhq.samples.telematics.ui.view.$NavigationOverlayDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.gluonhq.samples.telematics.ui.view.$NavigationViewDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.gluonhq.samples.telematics.ui.view.CarStateController",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true
+},
+{
+  "name":"com.gluonhq.samples.telematics.ui.view.ContentView",
+  "allDeclaredMethods":true,
+  "fields":[
+    {"name":"carStateView"}, 
+    {"name":"navigationView"}
+  ]
+},
+{
+  "name":"com.gluonhq.samples.telematics.ui.view.MainScreen",
+  "fields":[
+    {"name":"game2048FX"}, 
+    {"name":"games"}, 
+    {"name":"mainContentView"}, 
+    {"name":"navigationView"}
+  ]
+},
+{
+  "name":"com.gluonhq.samples.telematics.ui.view.Monitor",
+  "fields":[{"name":"mainScreen"}]
+},
+{
+  "name":"com.gluonhq.samples.telematics.ui.view.NavigationOverlay",
+  "allDeclaredMethods":true,
+  "fields":[
+    {"name":"car"}, 
+    {"name":"mapView"}, 
+    {"name":"overlayWindow"}
+  ]
+},
+{
+  "name":"com.gluonhq.samples.telematics.ui.view.NavigationView",
+  "allDeclaredMethods":true,
+  "fields":[
+    {"name":"car"}, 
+    {"name":"mapView"}, 
+    {"name":"overlay"}
+  ]
+},
+{
+  "name":"com.sun.glass.ui.Application"
+},
+{
+  "name":"com.sun.glass.ui.Menu"
+},
+{
+  "name":"com.sun.glass.ui.MenuItem$Callback"
+},
+{
+  "name":"com.sun.glass.ui.Size"
+},
+{
+  "name":"com.sun.glass.ui.View"
+},
+{
+  "name":"com.sun.javafx.font.coretext.CTFactory",
+  "methods":[{"name":"getFactory","parameterTypes":[] }]
+},
+{
+  "name":"com.sun.javafx.logging.PrintLogger",
+  "methods":[{"name":"createInstance","parameterTypes":[] }]
+},
+{
+  "name":"com.sun.javafx.logging.jfr.JFRPulseLogger",
+  "methods":[{"name":"createInstance","parameterTypes":[] }]
+},
+{
+  "name":"com.sun.javafx.reflect.Trampoline",
+  "methods":[{"name":"invoke","parameterTypes":["java.lang.reflect.Method","java.lang.Object","java.lang.Object[]"] }]
+},
+{
+  "name":"com.sun.javafx.scene.control.skin.Utils",
+  "methods":[{"name":"getResource","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"com.sun.javafx.tk.quantum.QuantumToolkit",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.sun.org.apache.xerces.internal.jaxp.SAXParserFactoryImpl",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.sun.prism.GraphicsPipeline",
+  "methods":[
+    {"name":"getFontFactory","parameterTypes":[] }, 
+    {"name":"getPipeline","parameterTypes":[] }
+  ]
+},
+{
+  "name":"com.sun.prism.es2.ES2Pipeline",
+  "methods":[{"name":"getInstance","parameterTypes":[] }]
+},
+{
+  "name":"com.sun.prism.shader.DrawRoundRect_Color_Loader",
+  "methods":[{"name":"loadShader","parameterTypes":["com.sun.prism.ps.ShaderFactory","java.io.InputStream"] }]
+},
+{
+  "name":"com.sun.prism.shader.FillPgram_Color_Loader",
+  "methods":[{"name":"loadShader","parameterTypes":["com.sun.prism.ps.ShaderFactory","java.io.InputStream"] }]
+},
+{
+  "name":"com.sun.prism.shader.FillPgram_LinearGradient_PAD_Loader",
+  "methods":[{"name":"loadShader","parameterTypes":["com.sun.prism.ps.ShaderFactory","java.io.InputStream"] }]
+},
+{
+  "name":"com.sun.prism.shader.FillRoundRect_Color_Loader",
+  "methods":[{"name":"loadShader","parameterTypes":["com.sun.prism.ps.ShaderFactory","java.io.InputStream"] }]
+},
+{
+  "name":"com.sun.prism.shader.Solid_TextureFirstPassLCD_Loader",
+  "methods":[{"name":"loadShader","parameterTypes":["com.sun.prism.ps.ShaderFactory","java.io.InputStream"] }]
+},
+{
+  "name":"com.sun.prism.shader.Solid_TextureRGB_Loader",
+  "methods":[{"name":"loadShader","parameterTypes":["com.sun.prism.ps.ShaderFactory","java.io.InputStream"] }]
+},
+{
+  "name":"com.sun.prism.shader.Solid_TextureSecondPassLCD_Loader",
+  "methods":[{"name":"loadShader","parameterTypes":["com.sun.prism.ps.ShaderFactory","java.io.InputStream"] }]
+},
+{
+  "name":"com.sun.prism.shader.Texture_Color_Loader",
+  "methods":[{"name":"loadShader","parameterTypes":["com.sun.prism.ps.ShaderFactory","java.io.InputStream"] }]
+},
+{
+  "name":"com.sun.scenario.effect.impl.es2.ES2ShaderSource",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.sun.scenario.effect.impl.prism.PrRenderer",
+  "methods":[{"name":"createRenderer","parameterTypes":["com.sun.scenario.effect.FilterContext"] }]
+},
+{
+  "name":"com.sun.scenario.effect.impl.prism.ps.PPSBlend_SRC_INPeer",
+  "methods":[{"name":"<init>","parameterTypes":["com.sun.scenario.effect.FilterContext","com.sun.scenario.effect.impl.Renderer","java.lang.String"] }]
+},
+{
+  "name":"com.sun.scenario.effect.impl.prism.ps.PPSLinearConvolveShadowPeer",
+  "methods":[{"name":"<init>","parameterTypes":["com.sun.scenario.effect.FilterContext","com.sun.scenario.effect.impl.Renderer","java.lang.String"] }]
+},
+{
+  "name":"com.sun.scenario.effect.impl.prism.ps.PPSRenderer",
+  "methods":[{"name":"createRenderer","parameterTypes":["com.sun.scenario.effect.FilterContext"] }]
+},
+{
+  "name":"com.sun.xml.internal.stream.XMLInputFactoryImpl",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.aop.Interceptor[]"
+},
+{
+  "name":"io.micronaut.context.env.PropertiesPropertySourceLoader",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.context.env.yaml.YamlPropertySourceLoader",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.discovery.$DefaultCompositeDiscoveryClientDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.discovery.$DefaultServiceInstanceIdGeneratorDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.discovery.cloud.digitalocean.$DigitalOceanInstanceMetadata$IntrospectionRef",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.discovery.cloud.digitalocean.$DigitalOceanMetadataConfigurationDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.discovery.cloud.digitalocean.$DigitalOceanMetadataResolverDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.discovery.config.$DefaultCompositeConfigurationClientDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.health.$DefaultCurrentHealthStatusDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.health.$HealthStatus$IntrospectionRef",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.health.$HeartbeatConfigurationDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.health.$HeartbeatDiscoveryClientCondition$IntrospectionRef",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.health.$HeartbeatTaskDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.bind.$DefaultRequestBinderRegistryDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.codec.$CodecConfigurationDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.converters.$HttpConverterRegistrarDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.hateoas.$AbstractResource$IntrospectionRef",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.hateoas.$DefaultLink$IntrospectionRef",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.hateoas.$JsonError$IntrospectionRef",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.hateoas.$VndError$IntrospectionRef",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.resource.$ResourceLoaderFactory$FileSystemResourceLoader1DefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.resource.$ResourceLoaderFactory$GetClassPathResourceLoader0DefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.resource.$ResourceLoaderFactory$ResourceResolver2DefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.resource.$ResourceLoaderFactoryDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.ssl.$ClientSslConfiguration$DefaultKeyConfigurationDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.ssl.$ClientSslConfiguration$DefaultKeyStoreConfigurationDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.ssl.$ClientSslConfiguration$DefaultTrustStoreConfigurationDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.ssl.$ClientSslConfigurationDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.ssl.$DefaultSslConfiguration$DefaultKeyConfigurationDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.ssl.$DefaultSslConfiguration$DefaultKeyStoreConfigurationDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.ssl.$DefaultSslConfiguration$DefaultTrustStoreConfigurationDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.ssl.$DefaultSslConfigurationDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.ssl.$ServerSslConfiguration$DefaultKeyConfigurationDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.ssl.$ServerSslConfiguration$DefaultKeyStoreConfigurationDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.ssl.$ServerSslConfiguration$DefaultTrustStoreConfigurationDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.ssl.$ServerSslConfigurationDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.http.util.$OutgoingHttpRequestProcessorImplDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.jackson.$BeanConfiguration",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.jackson.$JacksonConfigurationDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.jackson.$ObjectMapperFactory$ObjectMapper0DefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.jackson.$ObjectMapperFactoryDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.jackson.bind.$JacksonBeanPropertyBinderDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.jackson.codec.$JsonMediaTypeCodecDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.jackson.codec.$JsonStreamMediaTypeCodecDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.jackson.convert.$JacksonConverterRegistrarDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.jackson.env.CloudFoundryVcapApplicationPropertySourceLoader",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.jackson.env.CloudFoundryVcapServicesPropertySourceLoader",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.jackson.env.EnvJsonPropertySourceLoader",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.jackson.env.JsonPropertySourceLoader",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.jackson.modules.$BeanIntrospectionModuleDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.jackson.serialize.$ConvertibleMultiValuesSerializerDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.jackson.serialize.$ConvertibleValuesSerializerDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.jackson.serialize.$JacksonObjectSerializerDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.jackson.serialize.$OptionalValuesSerializerDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.jackson.serialize.$ResourceModuleDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.jackson.serialize.$ResourceSerializerModifierDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.logging.$PropertiesLoggingLevelsConfigurerDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.logging.impl.$LogbackLoggingSystemDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.reactive.flow.converters.$FlowConverterRegistrarDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.reactive.rxjava2.$RxInstrumenterFactoryDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.reactive.rxjava2.$RxJava2InstrumentationDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.reactive.rxjava2.converters.$RxJavaConverterRegistrarDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.retry.annotation.$DefaultRetryPredicate$IntrospectionRef",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.retry.intercept.$DefaultRetryInterceptorDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.retry.intercept.$RecoveryInterceptorDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.runtime.$ApplicationConfiguration$InstanceConfigurationDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.runtime.$ApplicationConfigurationDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.runtime.context.$CompositeMessageSourceDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.runtime.context.env.$ConfigurationIntroductionAdviceDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.runtime.context.scope.$ThreadLocalCustomScopeDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.runtime.context.scope.refresh.$RefreshInterceptorDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.runtime.context.scope.refresh.$RefreshScopeDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.runtime.converters.time.$TimeConverterRegistrarDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.runtime.http.codec.$MediaTypeCodecRegistryFactory$MediaTypeCodecRegistry0DefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.runtime.http.codec.$MediaTypeCodecRegistryFactoryDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.runtime.http.codec.$TextPlainCodecDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.runtime.http.scope.$RequestCustomScopeDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.runtime.server.watch.event.$FileWatchRestartListenerDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.scheduling.$DefaultTaskExceptionHandlerDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.scheduling.$ScheduledExecutorTaskSchedulerDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.scheduling.async.$AsyncInterceptorDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.scheduling.executor.$DefaultExecutorSelectorDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.scheduling.executor.$DefaultThreadFactory$ThreadFactory0DefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.scheduling.executor.$DefaultThreadFactoryDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.scheduling.executor.$ExecutorFactory$EventLoopGroupThreadFactory0DefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.scheduling.executor.$ExecutorFactory$ExecutorService1DefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.scheduling.executor.$ExecutorFactoryDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.scheduling.executor.$IOExecutorServiceConfig$Configuration0DefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.scheduling.executor.$IOExecutorServiceConfigDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.scheduling.executor.$ScheduledExecutorServiceConfig$Configuration0DefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.scheduling.executor.$ScheduledExecutorServiceConfigDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.scheduling.executor.$UserExecutorConfiguration$IntrospectionRef",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.scheduling.executor.$UserExecutorConfigurationDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.scheduling.instrument.$ExecutorServiceInstrumenterDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.scheduling.io.watch.$DefaultWatchThreadDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.scheduling.io.watch.$FileWatchCondition$IntrospectionRef",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.scheduling.io.watch.$FileWatchConfigurationDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.scheduling.io.watch.$WatchServiceFactory$WatchService0DefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.scheduling.io.watch.$WatchServiceFactoryDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.scheduling.processor.$ScheduledMethodProcessorDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.validation.$ValidatingInterceptorDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.validation.Validated"
+},
+{
+  "name":"io.micronaut.validation.exceptions.$ConstraintExceptionHandlerDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.validation.exceptions.$ValidationExceptionHandlerDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.validation.validator.$DefaultClockProviderDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.validation.validator.$DefaultValidatorConfigurationDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.validation.validator.$DefaultValidatorDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.validation.validator.$DefaultValidatorFactoryDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.validation.validator.constraints.$DefaultConstraintValidators$IntrospectionRef",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.validation.validator.constraints.$DefaultConstraintValidatorsDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.validation.validator.constraints.$EmailValidatorDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.validation.validator.constraints.$PatternValidatorDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.validation.validator.extractors.$DefaultValueExtractors$IntrospectionRef",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.validation.validator.extractors.$DefaultValueExtractorsDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.validation.validator.messages.$DefaultValidationMessagesDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.micronaut.validation.validator.resolver.$CompositeTraversableResolverDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.reactivex.Completable"
+},
+{
+  "name":"io.reactivex.Maybe"
+},
+{
+  "name":"io.reactivex.Observable"
+},
+{
+  "name":"io.reactivex.Single"
+},
+{
+  "name":"java.io.FilePermission"
+},
+{
+  "name":"java.lang.Character",
+  "methods":[{"name":"isIdeographic","parameterTypes":["int"] }]
+},
+{
+  "name":"java.lang.Class",
+  "methods":[{"name":"getModule","parameterTypes":[] }]
+},
+{
+  "name":"java.lang.Module",
+  "methods":[{"name":"getResourceAsStream","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"java.lang.Runnable"
+},
+{
+  "name":"java.lang.RuntimePermission"
+},
+{
+  "name":"java.lang.String"
+},
+{
+  "name":"java.net.NetPermission"
+},
+{
+  "name":"java.net.SocketPermission"
+},
+{
+  "name":"java.net.URLPermission",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.String","java.lang.String"] }]
+},
+{
+  "name":"java.nio.ByteBuffer",
+  "methods":[{"name":"order","parameterTypes":["java.nio.ByteOrder"] }]
+},
+{
+  "name":"java.nio.ByteOrder",
+  "methods":[{"name":"nativeOrder","parameterTypes":[] }]
+},
+{
+  "name":"java.security.AllPermission"
+},
+{
+  "name":"java.security.MessageDigestSpi"
+},
+{
+  "name":"java.security.SecureRandomParameters"
+},
+{
+  "name":"java.security.SecurityPermission"
+},
+{
+  "name":"java.util.PropertyPermission"
+},
+{
+  "name":"javafx.animation.KeyValue"
+},
+{
+  "name":"javafx.fxml.FXMLLoader"
+},
+{
+  "name":"javafx.geometry.HPos",
+  "methods":[{"name":"valueOf","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"javafx.geometry.Pos",
+  "methods":[{"name":"valueOf","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"javafx.geometry.VPos",
+  "methods":[{"name":"valueOf","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"javafx.scene.Camera"
+},
+{
+  "name":"javafx.scene.Group"
+},
+{
+  "name":"javafx.scene.Node",
+  "allDeclaredMethods":true
+},
+{
+  "name":"javafx.scene.ParallelCamera"
+},
+{
+  "name":"javafx.scene.Parent",
+  "allDeclaredMethods":true
+},
+{
+  "name":"javafx.scene.Scene"
+},
+{
+  "name":"javafx.scene.control.Control",
+  "allDeclaredMethods":true
+},
+{
+  "name":"javafx.scene.control.Label",
+  "allDeclaredMethods":true,
+  "allPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"javafx.scene.control.Labeled",
+  "allDeclaredMethods":true
+},
+{
+  "name":"javafx.scene.control.Separator",
+  "allPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"javafx.scene.control.ToolBar",
+  "allDeclaredMethods":true,
+  "allPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"javafx.scene.effect.Effect"
+},
+{
+  "name":"javafx.scene.image.Image"
+},
+{
+  "name":"javafx.scene.image.ImageView",
+  "allDeclaredMethods":true,
+  "allPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"javafx.scene.layout.BorderPane",
+  "allDeclaredMethods":true,
+  "allPublicConstructors":true,
+  "methods":[
+    {"name":"<init>","parameterTypes":[] }, 
+    {"name":"getAlignment","parameterTypes":["javafx.scene.Node"] }, 
+    {"name":"setAlignment","parameterTypes":["javafx.scene.Node","javafx.geometry.Pos"] }
+  ]
+},
+{
+  "name":"javafx.scene.layout.ColumnConstraints",
+  "allDeclaredMethods":true,
+  "allPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"javafx.scene.layout.ConstraintsBase",
+  "allDeclaredMethods":true
+},
+{
+  "name":"javafx.scene.layout.GridPane",
+  "allDeclaredMethods":true,
+  "allPublicConstructors":true,
+  "methods":[
+    {"name":"<init>","parameterTypes":[] }, 
+    {"name":"getColumnIndex","parameterTypes":["javafx.scene.Node"] }, 
+    {"name":"getColumnSpan","parameterTypes":["javafx.scene.Node"] }, 
+    {"name":"getHalignment","parameterTypes":["javafx.scene.Node"] }, 
+    {"name":"getHgrow","parameterTypes":["javafx.scene.Node"] }, 
+    {"name":"getRowIndex","parameterTypes":["javafx.scene.Node"] }, 
+    {"name":"getValignment","parameterTypes":["javafx.scene.Node"] }, 
+    {"name":"getVgrow","parameterTypes":["javafx.scene.Node"] }, 
+    {"name":"setColumnIndex","parameterTypes":["javafx.scene.Node","java.lang.Integer"] }, 
+    {"name":"setColumnSpan","parameterTypes":["javafx.scene.Node","java.lang.Integer"] }, 
+    {"name":"setHalignment","parameterTypes":["javafx.scene.Node","javafx.geometry.HPos"] }, 
+    {"name":"setHgrow","parameterTypes":["javafx.scene.Node","javafx.scene.layout.Priority"] }, 
+    {"name":"setRowIndex","parameterTypes":["javafx.scene.Node","java.lang.Integer"] }, 
+    {"name":"setValignment","parameterTypes":["javafx.scene.Node","javafx.geometry.VPos"] }, 
+    {"name":"setVgrow","parameterTypes":["javafx.scene.Node","javafx.scene.layout.Priority"] }
+  ]
+},
+{
+  "name":"javafx.scene.layout.HBox",
+  "allDeclaredMethods":true,
+  "allPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"javafx.scene.layout.Pane",
+  "allDeclaredMethods":true
+},
+{
+  "name":"javafx.scene.layout.Priority",
+  "methods":[{"name":"valueOf","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"javafx.scene.layout.Region",
+  "allDeclaredMethods":true
+},
+{
+  "name":"javafx.scene.layout.RowConstraints",
+  "allDeclaredMethods":true,
+  "allPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"javafx.scene.shape.Polygon"
+},
+{
+  "name":"javafx.scene.shape.Rectangle"
+},
+{
+  "name":"javafx.scene.shape.SVGPath"
+},
+{
+  "name":"javafx.scene.shape.Shape"
+},
+{
+  "name":"javafx.scene.text.Font"
+},
+{
+  "name":"javafx.scene.text.Text"
+},
+{
+  "name":"javafx.scene.transform.Transform"
+},
+{
+  "name":"javafx.stage.PopupWindow"
+},
+{
+  "name":"javafx.stage.Stage"
+},
+{
+  "name":"javafx.stage.Window"
+},
+{
+  "name":"javax.management.ObjectName"
+},
+{
+  "name":"org.glassfish.json.JsonProviderImpl",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.jpereda.game2048.$Game2048$ApplicationEventListener$onAppInit1$InterceptedDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.jpereda.game2048.$Game2048$ApplicationEventListener$onAppStart2$InterceptedDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.jpereda.game2048.$Game2048$ApplicationEventListener$onAppStop3$InterceptedDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.jpereda.game2048.$Game2048DefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.jpereda.game2048.$GameManagerDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.jpereda.game2048.Game2048",
+  "fields":[
+    {"name":"game"}, 
+    {"name":"gameController"}, 
+    {"name":"gameModel"}
+  ]
+},
+{
+  "name":"org.jpereda.game2048.model.$GameModelDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.jpereda.game2048.model.GameModel",
+  "fields":[{"name":"gameManager"}]
+},
+{
+  "name":"org.jpereda.game2048.service.$CloudDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.jpereda.game2048.service.Cloud",
+  "fields":[{"name":"gameModel"}]
+},
+{
+  "name":"org.jpereda.game2048.views.$GameControllerDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.jpereda.game2048.views.$GameViewDefinitionClass",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.jpereda.game2048.views.GameController",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true
+},
+{
+  "name":"sun.misc.Unsafe",
+  "fields":[{"name":"theUnsafe"}]
+},
+{
+  "name":"sun.security.provider.MD5",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.provider.NativePRNG",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.provider.SHA",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+}
+]

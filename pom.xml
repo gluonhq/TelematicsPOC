@@ -1,0 +1,65 @@
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.gluonhq.samples</groupId>
+    <artifactId>telematics</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <name>TelematicsPOC</name>
+
+    <parent>
+        <groupId>io.micronaut</groupId>
+        <artifactId>micronaut-parent</artifactId>
+        <version>2.1.2</version>
+    </parent>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.release>11</maven.compiler.release>
+        <javafx.version>17-ea+11</javafx.version>
+        <javafx.plugin.version>0.0.6</javafx.plugin.version>
+        <client.plugin.version>0.1.41</client.plugin.version>
+        <attach.version>4.0.11</attach.version>
+        <charm.version>6.0.7</charm.version>
+        <jdk.version>11</jdk.version>
+        <release.version>11</release.version>
+        <micronaut.version>2.1.2</micronaut.version>
+
+        <vin></vin>
+    </properties>
+
+    <repositories>
+        <repository>
+            <id>oss.sonatype.org-snapshot</id>
+            <url>http://oss.sonatype.org/content/repositories/snapshots</url>
+            <releases>
+                <enabled>false</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
+        <repository>
+            <id>central</id>
+            <url>https://repo.maven.apache.org/maven2</url>
+        </repository>
+        <repository>
+            <id>jcenter.bintray.com</id>
+            <url>https://jcenter.bintray.com</url>
+        </repository>
+        <repository>
+            <id>gluonreleases</id>
+            <url>https://nexus.gluonhq.com/nexus/content/repositories/releases</url>
+        </repository>
+
+    </repositories>
+
+    <modules>
+        <module>client</module>
+        <module>games/Game2048FX</module>
+    </modules>
+</project>

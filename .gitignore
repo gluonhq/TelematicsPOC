@@ -1,0 +1,4 @@
+*.iml
+.idea
+client/target
+games/Game2048FX/target

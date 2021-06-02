@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+
+<?import javafx.scene.control.ToolBar?>
+<BorderPane fx:id="view" prefHeight="600.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.jpereda.game2048.views.GameController">
+   <top>
+      <HBox alignment="CENTER" styleClass="bottom" BorderPane.alignment="CENTER" />
+   </top>
+   <bottom>
+      <HBox alignment="CENTER" styleClass="bottom" BorderPane.alignment="CENTER" >
+         <ToolBar BorderPane.alignment="CENTER" fx:id="bottomNav"/>
+      </HBox>
+   </bottom>
+</BorderPane>
