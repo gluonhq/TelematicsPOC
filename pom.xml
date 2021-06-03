@@ -24,7 +24,7 @@
         <javafx.plugin.version>0.0.6</javafx.plugin.version>
         <client.plugin.version>0.1.42</client.plugin.version>
         <attach.version>4.0.11</attach.version>
-        <charm.version>6.0.7</charm.version>
+        <charm.version>6.0.6</charm.version>
         <jdk.version>11</jdk.version>
         <release.version>11</release.version>
         <micronaut.version>2.1.2</micronaut.version>
