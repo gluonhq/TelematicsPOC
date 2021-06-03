@@ -94,11 +94,6 @@
         </dependency>
         <dependency>
             <groupId>com.gluonhq.attach</groupId>
-            <artifactId>settings</artifactId>
-            <version>${attach.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>com.gluonhq.attach</groupId>
             <artifactId>statusbar</artifactId>
             <version>${attach.version}</version>
         </dependency>
@@ -246,9 +241,9 @@
                     <nativeImageArgs>
                         <arg>--report-unsupported-elements-at-runtime</arg>
                     </nativeImageArgs>
-<!--                    <runtimeArgs>${runtime.options}</runtimeArgs>-->
-<!--                    <remoteHostName>${remote.host.name}</remoteHostName>-->
-<!--                    <remoteDir>${remote.dir}</remoteDir>-->
+                    <runtimeArgs>${runtime.options}</runtimeArgs>
+                    <remoteHostName>${remote.host.name}</remoteHostName>
+                    <remoteDir>${remote.dir}</remoteDir>
                 </configuration>
             </plugin>
         </plugins>
